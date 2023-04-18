@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 // ==UserScript==
 // @name         Evolve
 // @namespace    http://tampermonkey.net/
