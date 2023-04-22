@@ -4,11 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "prepare": "husky install",
+    "preinstall": "git config blame.ignoreRevsFile .git-blame-ignore-revs",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "check": "svelte-check --tsconfig ./tsconfig.json",
-    "prepare": "husky install"
+    "check": "svelte-check --tsconfig ./tsconfig.json"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^2.0.3",
